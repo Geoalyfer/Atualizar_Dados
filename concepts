@@ -1,0 +1,18 @@
+O comando UPDATE é utilizado para atualização de dados.
+Digite o comando UPDATE + nome da tabela + SET + nome da coluna = novo dado que vai substituir o dado existente WHERE nome da coluna que vai receber o filtro = dado a ser filtrado
+
+UPDATE aluno SET nome = 'Lucas' WHERE matricula = 333333
+
+Botão executar
+
+(1 row affected)
+
+
+UPDATE aluno SET matricula = 444444 WHERE nome = 'Maria Ines'
+
+A leitura do código será;
+
+Atualize a tabela aluno setando a matricula (então 222222) para 444444 onde o nome é igual a Maria Ines
+
+Caso o WHERE não seja especificado, todas as linhas serão alteradas para o mesmo valor redefinido.
+
